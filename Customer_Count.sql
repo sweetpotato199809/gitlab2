@@ -2,5 +2,6 @@
 
 /*Count the number of customers*/
 
-select count(*)
-from customers;
+SELECT GENDER, COUNT(*) 
+FROM CUSTOMER 
+GROUP BY GENDER;
